@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "freePlugin",
+    "version": "1.0",
+    "default_locale": "cn",
+    "description": "文件导入",
+    "page_action": {
+        "default_icon": {
+            "16": "timg.jpeg"
+        },
+        "default_title": "文件导入",
+        "default_popup": "popup.html"
+
+    },
+    "background":{
+        "scripts":["background.js"],
+        "persistent": false
+    }
+}
